@@ -148,67 +148,53 @@ Judging by the data these empty cells can be fixed through excels arithmetic for
   <P style="text-align: center;">=K4-(H4+I4+J4)</P>
 - Now that the first value of na_sales have appeared I will drag the fill handle and this will fill the all the empty cell in the na_sales column.
 
+### Result:
+-
+- Now use this method with the rest of the sales column.
+- After filling the sales column, I searched on the internet to fill the missing empty cells in the platform, year and genre column.
 
+### Result:
+-
 
+## Duplication:
+Duplications can be removed from a number of methods.
 
+### Using Microsoft Excel:
+In Microsoft Excel, you there also many ways to remove duplicates.
 
+### Using the remove duplicate button:
+This is the easiest method of removing duplicates in your dataset. You select the entire data with Ctrl + A and then go to the data tab, there find and click on the remove duplicate button. This will remove duplicates from the data sets.
+-
+-
 
+### Using SQL to remove duplication:
+SQL make very easy to query for a data set that have no duplication. This can be done with the SQL’s Distinct statement. Here is the procedure:
+- 	I will upload the data set sheet to data.world, which contain duplicates.
+- 	Then I will use the following SQL statement to query for a data set that have unique values.
+-
 
+### Before:
+-
 
+### After:
+-
 
+## Excluding irrelevant data:
+It is a good practice to exclude irrelevant data from the data set. In this data set, I have noticed that the column rank is relevant to my analysis. So I will exclude that column and after this our data set will become clean and ready for analysis.
 
+### Final look of the data set:
+-
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Phase 4 Analyse:
+For Analysis of the data set to solve questions which were formulated in the Ask phase, I will be using Tableau public to develop insight.
+| Q.NO | DATA ANALYSIS QUESTIONS |
+| :---: | :--- |
+| 1 | Genre with the most sales.  |
+| 2 | Maximum number of game on each platform.  |
+| 3 | Platform having most sales.  |
+| 4 | Are games being made increasing per year?  |
+| 5 | Bestselling games per year. |
+| 6 | Trend in the preferred genres from 1985 – 2020.  |
 
 
 ### Question 1:

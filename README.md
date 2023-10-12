@@ -117,6 +117,27 @@ Our next objective is to look for extra empty rows with in the dataset, and by s
   - After this the rows that have data in it will appear and the extra empty rows will not be visible.
 
 #### Using the sort method:
+  - First select the whole data.
+  - Then Click on the Sort & filter option in the home tab and click on Custom Sort.
+  -
+  - In the custom sort window, I chose column name to sort by, then sort on values and in orders field, I chose custom list.
+  - 
+  - In the custom list window, I added a new entry called Blank. This entry will make all the blank rows appear in the ascending order.
+  - 
+
+### Result:
+ -
+ -
+ - The cell which have data present in it are arranged in the bottom.
+ - Now remove the empty rows that are arrange in the ascending order. This will remove all the empty rows.
+
+### Final result:
+ -
+
+### Filling missing values:
+By observing the data, I have noticed that there are some empty cells in rows.
+-
+Judging by the data these empty cells can be fixed through excels arithmetic formulas and also some internet research. To make this process easy, I will fill these cells with the help of filter option.
 
 
 

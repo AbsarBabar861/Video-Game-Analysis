@@ -139,6 +139,13 @@ By observing the data, I have noticed that there are some empty cells in rows.
 -
 Judging by the data these empty cells can be fixed through excels arithmetic formulas and also some internet research. To make this process easy, I will fill these cells with the help of filter option.
 
+### Using filter to show only empty cells:
+- 	First, I will fill the sales empty cells.
+- 	Apply a blank filter on na_sales column. All the empty cells in the na_sales column will appear.
+-
+- 	Now use excels arithmetic formulas to fill these cell. I will use start will Cell G4 and apply the formula:
+  <P style ="Text-align:center;">=K4-(H4+I4+J4)</P>
+
 
 
 

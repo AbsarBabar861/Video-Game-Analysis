@@ -66,6 +66,39 @@ Let us start the process by locating the video game analysis dataset in the data
 - Left Join table_b
 - On table_a.rank=table_brank
 
+### Result:
+
+## Phase 3, Process:
+Now that the data is selected and retrieved, it’s time to clean the data by making it ready for analysis. To make the data clean, a data analyst must look for the following things in the data sets:
+
+- Proper structure formatting.
+- Extra spaces in the cell.
+- Removing empty rows within the data
+- Filling missing values.
+- Duplications
+- Exclude any irrelevant data.
+
+### Proper structure formatting.
+By inspecting the data sheet, I noticed that the alignment of some data in the rows is not correct. There are some cells that have extra spaces within the cell but there are some that are not properly aligned. The image below shows that the cell value is not properly align with the rest of the data set and no extra space is present because the formula bar shows.
+
+### Let’s align it this for it to look clean.
+- Select the whole data set with CTRL + A and click on the centre align in the button in the home tab of the ribbon.
+- This method will present the data in centre alignment and as a result will look clean.
+- Now if some cells are still not properly aligned, this means that there are some extra spaces in their cell. These spaces can be removed in the coming method.
+
+### Remove Extra spaces in the cells:
+- Extra spaces in the cells of the data can be remove with the trim function.
+- At right side of the Headers in row 1, in the cell M1, insert the trim function with the cell A1 as a relative reference.
+- This will make the text “rank” appear without any extra spaces, now click on the fill handle of cell M1 and drag it 10 columns, right side in row 1 because the total columns of this data set excluding the rank column is 10.
+- Now I will select all the column headers in row 1 and then I will select the fill handle which can be seen at the bottom right of cell w1.After selecting the fill handle of Cell W1, I will drag it to where the data set ends. This method will fill the new rows with the data without any extra spaces.
+- Now I need to replace the data having extra spaces with the new extra space-less data. This can be done as follow:
+  - Select the new corrected data.
+  - Copy it with CTRL + C.
+  - Highlight all the data set which have extra spaces.
+  - Press right click and paste the data as values on the erroneous dataset.
+  - This will replace the unclean extra space data with the relatively cleaner version of it.
+
+
 
 
 

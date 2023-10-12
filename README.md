@@ -67,7 +67,7 @@ Let us start the process by locating the video game analysis dataset in the data
 - From table_a
 - Left Join table_b
 - On table_a.rank=table_brank
-- ![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/62a59017-0908-45a6-ab11-81d6b6a153e2)
+![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/62a59017-0908-45a6-ab11-81d6b6a153e2)
 
 ### Result:
 ![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/7db58244-e551-4b07-bbc3-861ccdf182e7)
@@ -84,16 +84,22 @@ Now that the data is selected and retrieved, it’s time to clean the data by ma
 
 ### Proper structure formatting.
 By inspecting the data sheet, I noticed that the alignment of some data in the rows is not correct. There are some cells that have extra spaces within the cell but there are some that are not properly aligned. The image below shows that the cell value is not properly align with the rest of the data set and no extra space is present because the formula bar shows.
+![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/cea8294a-ab57-435d-bc68-53ffc30380c0)
+
 
 ### Let’s align it this for it to look clean.
 - Select the whole data set with CTRL + A and click on the centre align in the button in the home tab of the ribbon.
+![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/64fbea29-0835-4201-a482-3ddf88d2f8ce)
 - This method will present the data in centre alignment and as a result will look clean.
+![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/1d57f2b4-c9d8-45af-875f-798ce3f56bbc)
 - Now if some cells are still not properly aligned, this means that there are some extra spaces in their cell. These spaces can be removed in the coming method.
 
 ### Remove Extra spaces in the cells:
 - Extra spaces in the cells of the data can be remove with the trim function.
 - At right side of the Headers in row 1, in the cell M1, insert the trim function with the cell A1 as a relative reference.
+![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/de6b48f8-028a-45f6-8316-5dcaf462d3be)
 - This will make the text “rank” appear without any extra spaces, now click on the fill handle of cell M1 and drag it 10 columns, right side in row 1 because the total columns of this data set excluding the rank column is 10.
+![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/aeff86e9-dab2-4b70-9acf-ad36967a8d9a)
 - Now I will select all the column headers in row 1 and then I will select the fill handle which can be seen at the bottom right of cell w1.After selecting the fill handle of Cell W1, I will drag it to where the data set ends. This method will fill the new rows with the data without any extra spaces.
 - Now I need to replace the data having extra spaces with the new extra space-less data. This can be done as follow:
   - Select the new corrected data.
@@ -104,13 +110,14 @@ By inspecting the data sheet, I noticed that the alignment of some data in the r
 - Now our data set is properly aligned and have no extra spaces.
 
 ### Result:
+![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/0c73192d-1216-4cc9-a04a-e519e26601b3)
 
 ### Removing extra empty rows within the data set.
 Our next objective is to look for extra empty rows with in the dataset, and by skimming through the data I have found that there are some present. These extra empty rows can be removed with two methods.
 #### Using filters:
   - First select the whole data set.
   - In the Home tab at the top, find the Sort & Filter button and click on.
-  - 
+![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/38efa925-8366-41e4-8524-8c63cf56b1f5)
   - Small arrows will appear beside in the header’s cell. That is the filter option.
   - You can apply filter on any column, I chose to apply a filter on the name column and in the filter option I selected only blank cells. This will hide all the filled rows and only the rows that are empty will appear.
   -

@@ -33,6 +33,7 @@ https://www.kaggle.com/datasets/gregorut/videogamesales
 - Alignment wrong.
 - Splitting of columns to another sheet for SQL joining.
 - For the sake of showing skills, I have split the data set into two tables and uploaded them in dataworld data storage, so that I can demonstrate some SQL skills in retrieving the data. The name of the two tables are table_a and table_b.
+  
 ### Using SQL to retrieve data from the dataworld database:
 Let us start the process by locating the video game analysis dataset in the dataworld database. After locating the dataset. Here is the process:
 - The Schema of the dataset shows that data sets shows that there are two tables, table_a and table_b.
@@ -42,6 +43,8 @@ Let us start the process by locating the video game analysis dataset in the data
 - Select  *
 - From table_a
 
+### SQL Query console:
+![SQL Qury console 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/af80e344-3f03-4e4a-9f5d-c6e1257c443f)
 
 
 

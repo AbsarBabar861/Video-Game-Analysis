@@ -135,16 +135,19 @@ Our next objective is to look for extra empty rows with in the dataset, and by s
  -
 
 ### Filling missing values:
- By observing the data, I have noticed that there are some empty cells in rows.
+
+By observing the data, I have noticed that there are some empty cells in rows.
 -
 Judging by the data these empty cells can be fixed through excels arithmetic formulas and also some internet research. To make this process easy, I will fill these cells with the help of filter option.
 
 ### Using filter to show only empty cells:
-- 	First, I will fill the sales empty cells.
-- 	Apply a blank filter on na_sales column. All the empty cells in the na_sales column will appear.
+- First, I will fill the sales empty cells.
+- Apply a blank filter on na_sales column. All the empty cells in the na_sales column will appear.
 -
-- 	Now use excels arithmetic formulas to fill these cell. I will use start will Cell G4 and apply the formula:
+- Now use excels arithmetic formulas to fill these cell. I will use start will Cell G4 and apply the formula:
   <P style="text-align: center;">=K4-(H4+I4+J4)</P>
+- Now that the first value of na_sales have appeared I will drag the fill handle and this will fill the all the empty cell in the na_sales column.
+
 
 
 

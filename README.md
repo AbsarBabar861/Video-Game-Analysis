@@ -54,8 +54,10 @@ Let us start the process by locating the video game analysis dataset in the data
 - FROM table_b
 
 ### SQL Query console:
+![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/f3803dc5-c036-4f95-b3a4-9b8a4fec139a)
 
 ### Result:
+![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/780d0fdb-2ae6-41a7-ab7f-db7da1d774ac)
 
 - By observing the fields name of both the tables, I have noted that there is a field called rank which is present in both the tables. With the help of SQL Join query, I will combine the data set of both the table with this common rank field.
 - Using join query to combine the data of both the tables in a single table. Now there are multiple join methods to join data but for this analysis, I want all the data of the left table which is table_a and the data of table_b, which matches with table_a. So for this purpose, I will use the left join query.
@@ -65,8 +67,10 @@ Let us start the process by locating the video game analysis dataset in the data
 - From table_a
 - Left Join table_b
 - On table_a.rank=table_brank
+- ![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/62a59017-0908-45a6-ab11-81d6b6a153e2)
 
 ### Result:
+![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/7db58244-e551-4b07-bbc3-861ccdf182e7)
 
 ## Phase 3, Process:
 Now that the data is selected and retrieved, it’s time to clean the data by making it ready for analysis. To make the data clean, a data analyst must look for the following things in the data sets:

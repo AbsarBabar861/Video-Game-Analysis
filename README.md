@@ -20,6 +20,83 @@ We will conduct this analysis by follow the steps of the google analytics course
 | 5 | Bestselling games per year. |
 | 6 | Trend in the preferred genres from 1985 – 2020.  |
 
+## Phase 2, Prepare:
+•	This data set was located and download from kaggle. Here is the link 
+https://www.kaggle.com/datasets/gregorut/videogamesales
+•	This data set has information about, the games, publisher, year of release, North America’s sales, Europe sales, other region sales and Global sales, which will help bring insights to the questions in the ask phase.
+•	This data has no licence but the common licence of Attribution 4.0 International (CC BY 4.0) states that data set can be adjusted, tampered or modified according to the need. Only citation of the data set source is required.
+•	The data provided in the link is clean, but for the sake of showing skills in this portfolio, it was made unclean. Following components were added to make the data unclean:
+•	Extra rows (done)
+•	Duplicates (done)
+•	Extra spaces in cells contains strings (done)
+•	Missing Values (done)
+•	Alignment wrong. (done)
+•	Splitting of columns to another sheet for SQL joining. (done)
+•	For the sake of showing skills, I have split the data set into two tables and uploaded them in dataworld data storage, so that I can demonstrate some SQL skills in retrieving the data. The name of the two tables are table_a and table_b.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Question 1:
 #### Genre with the most sales
 ![Genre with most sales](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/40ef5b0f-5b60-49ca-a10b-f7f304df5dcd)

@@ -97,6 +97,27 @@ By inspecting the data sheet, I noticed that the alignment of some data in the r
   - Highlight all the data set which have extra spaces.
   - Press right click and paste the data as values on the erroneous dataset.
   - This will replace the unclean extra space data with the relatively cleaner version of it.
+- Now our data set is properly aligned and have no extra spaces.
+
+### Result:
+
+### Removing extra empty rows within the data set.
+Our next objective is to look for extra empty rows with in the dataset, and by skimming through the data I have found that there are some present. These extra empty rows can be removed with two methods.
+#### Using filters:
+  - First select the whole data set.
+  - In the Home tab at the top, find the Sort & Filter button and click on.
+  - 
+  - Small arrows will appear beside in the header’s cell. That is the filter option.
+  - You can apply filter on any column, I chose to apply a filter on the name column and in the filter option I selected only blank cells. This will hide all the filled rows and only the rows that are empty will appear.
+  -
+  - The numbers on the left hand side shows the specific row which is empty and is present in the middle of the data set.
+  - Select all these rows and right click on the row section and press delete.
+  - This will delete all the empty rows that are present in the middle of the data set.
+  - Now remove the filter by clicking the Sort & Filter button again.
+  - After this the rows that have data in it will appear and the extra empty rows will not be visible.
+
+#### Using the sort method:
+
 
 
 

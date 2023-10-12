@@ -66,7 +66,7 @@ Let us start the process by locating the video game analysis dataset in the data
 - Select *
 - From table_a
 - Left Join table_b
-- On table_a.rank=table_brank
+- On table_a.rank=table_b.rank
 ![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/62a59017-0908-45a6-ab11-81d6b6a153e2)
 
 ### Result:
@@ -120,52 +120,53 @@ Our next objective is to look for extra empty rows with in the dataset, and by s
 ![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/38efa925-8366-41e4-8524-8c63cf56b1f5)
   - Small arrows will appear beside in the header’s cell. That is the filter option.
   - You can apply filter on any column, I chose to apply a filter on the name column and in the filter option I selected only blank cells. This will hide all the filled rows and only the rows that are empty will appear.
-  -
+![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/b529fd29-7ccd-4866-a8b6-3413755fbc9e)
   - The numbers on the left hand side shows the specific row which is empty and is present in the middle of the data set.
   - Select all these rows and right click on the row section and press delete.
   - This will delete all the empty rows that are present in the middle of the data set.
   - Now remove the filter by clicking the Sort & Filter button again.
   - After this the rows that have data in it will appear and the extra empty rows will not be visible.
+![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/9d65fdc6-3214-428c-925d-5dfa7f505a94)
 
 #### Using the sort method:
   - First select the whole data.
   - Then Click on the Sort & filter option in the home tab and click on Custom Sort.
-  -
+![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/294cc539-2403-48c7-8877-4c2d31affdda)
   - In the custom sort window, I chose column name to sort by, then sort on values and in orders field, I chose custom list.
-  - 
+![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/0453fb64-bc23-4c75-878d-1cbf2362cce6)
   - In the custom list window, I added a new entry called Blank. This entry will make all the blank rows appear in the ascending order.
-  - 
+![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/02dd9483-e2bd-4c8a-89e7-34177ec7bf43)
+
 
 ### Result:
- -
- -
+![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/c211399c-74b5-423e-be2f-771c9921fb7e)
+![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/1bcada34-8a4f-4915-b34d-323b1b04c28a)
  - The cell which have data present in it are arranged in the bottom.
  - Now remove the empty rows that are arrange in the ascending order. This will remove all the empty rows.
 
 ### Final result:
- -
+![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/b9f617ab-96ac-49a0-844c-5c1332a65557)
 
 ### Filling missing values:
-
 By observing the data, I have noticed that there are some empty cells in rows.
--
+-![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/0c637ce6-b446-46d1-bfad-5658f8ed107a)
 Judging by the data these empty cells can be fixed through excels arithmetic formulas and also some internet research. To make this process easy, I will fill these cells with the help of filter option.
 
 ### Using filter to show only empty cells:
 - First, I will fill the sales empty cells.
 - Apply a blank filter on na_sales column. All the empty cells in the na_sales column will appear.
--
+![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/61d2fe70-5cef-4810-8c24-d73a69dce010)
 - Now use excels arithmetic formulas to fill these cell. I will use start will Cell G4 and apply the formula:
   <P style="text-align: center;">=K4-(H4+I4+J4)</P>
 - Now that the first value of na_sales have appeared I will drag the fill handle and this will fill the all the empty cell in the na_sales column.
 
 ### Result:
--
+![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/afcb3bbe-f4c7-49de-9baf-9c676b39470b)
 - Now use this method with the rest of the sales column.
 - After filling the sales column, I searched on the internet to fill the missing empty cells in the platform, year and genre column.
 
 ### Result:
--
+![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/4757777c-7a49-4ca6-a353-1dbdcfca66bd)
 
 ## Duplication:
 Duplications can be removed from a number of methods.
@@ -175,13 +176,14 @@ In Microsoft Excel, you there also many ways to remove duplicates.
 
 ### Using the remove duplicate button:
 This is the easiest method of removing duplicates in your dataset. You select the entire data with Ctrl + A and then go to the data tab, there find and click on the remove duplicate button. This will remove duplicates from the data sets.
--
+![SQl query 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/902337f8-21c5-4b8a-b8b8-bfed7adbca01)
+
 -
 
 ### Using SQL to remove duplication:
 SQL make very easy to query for a data set that have no duplication. This can be done with the SQL’s Distinct statement. Here is the procedure:
-- 	I will upload the data set sheet to data.world, which contain duplicates.
-- 	Then I will use the following SQL statement to query for a data set that have unique values.
+- I will upload the data set sheet to data.world, which contain duplicates.
+- Then I will use the following SQL statement to query for a data set that have unique values.
 -
 
 ### Before:

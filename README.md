@@ -46,7 +46,25 @@ Let us start the process by locating the video game analysis dataset in the data
 ### SQL Query console:
 ![SQL Qury console 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/af80e344-3f03-4e4a-9f5d-c6e1257c443f)
 
+### Result:
+![sql resut 1](https://github.com/AbsarBabar861/Video-Game-Analysis/assets/146658018/01d4b84e-45f5-4999-8569-c0fa7fb0d315)
 
+### Using the following command to inspect table_b:
+- SELECT *
+- FROM table_b
+
+### SQL Query console:
+
+### Result:
+
+- By observing the fields name of both the tables, I have noted that there is a field called rank which is present in both the tables. With the help of SQL Join query, I will combine the data set of both the table with this common rank field.
+- Using join query to combine the data of both the tables in a single table. Now there are multiple join methods to join data but for this analysis, I want all the data of the left table which is table_a and the data of table_b, which matches with table_a. So for this purpose, I will use the left join query.
+
+###	Using Left Join query to combine data of 2 tables in a single table:
+- Select *
+- From table_a
+- Left Join table_b
+- On table_a.rank=table_brank
 
 
 
